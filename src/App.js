@@ -4,15 +4,15 @@ import './style.css';
 import './phone.css';
  import Home from './Home';
 import About from './About';
-// import Slider from './Slider';
+import Slider from './Components/Slider';
 import Footer from './Footer';
 const App = () => {
   return (
     <>
     <Home/>
     <About/>
+    <Slider/>
     <Footer/>
-    {/* <Slider/> */}
     </>
   );
 };

@@ -13,7 +13,6 @@ import { faPhoneVolume } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
   return (
     <div className="footer-section" id="footer">
-      
         <div className="row1">
           <div className="desc">
             <img src={logo} alt="" className="foot" />
@@ -26,7 +25,7 @@ const Footer = () => {
               </p>
             </div>
             <container>
-              <h4 className="text-center">Follow Us</h4>
+              <h1 className="text-center">Follow Us</h1>
               <div className="singleCol social-media-icons-white d-flex justify-content-evenly">
                 <a href="http://facebook.com">
                   <FontAwesomeIcon icon={faFacebook} />

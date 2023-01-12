@@ -9,7 +9,7 @@ const Home = () => {
       <section id="header" className="">
         <div className="container-fluis nav_bg">
           <div className="row text-center">
-            <section className="text-center">  
+            <section className="text-center">
               <div class="content text-center">
                 <h2>Fugacity </h2>
                 <h2>Fugacity </h2>
@@ -23,16 +23,18 @@ const Home = () => {
                 Register Here
               </a>
             </div>
-          </div> 
+          </div>
 
           <div className="col-lg-6 order-1 order-lg-2 header-img text-center">
-                  <img
-                    src={Fugacity}
-                    className="img-fluid"
-                    alt="logo"
-                  />
-                </div>
+            <img src={Fugacity} className="img-fluid" alt="logo" />
+          </div>
         </div>
+          <div className="data">
+          <h4>Our social-media reach: 30,000+</h4>
+          <h4>Number of student participated last year: 2000+</h4>
+          <h4>Number of events: 10+</h4>
+          </div>
+
       </section>
     </div>
   );

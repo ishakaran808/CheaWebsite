@@ -19,11 +19,11 @@
 }
 .container .card .contain h3{
     font-size: 1.2em;
+    margin: 0 10px;
 }
 .container .card .contain a {
     position: absolute;
     top: 200px;
-    left: 60px;
     justify-content: center;
 }
 .container .card img{
@@ -32,6 +32,17 @@
 }
 .container .card:hover {
 height: 700px;
+}
+.container .card:hover {
+    height: 700px;
+}
+.container .card:hover {
+    height: 550px;
+    transform: translateY(20px);
+    transition: 0.5s;
+}
+.container .card{
+    top: 0;
 }
 .mx-auto{
     flex-direction: column;
@@ -54,12 +65,24 @@ height: 700px;
     flex-direction: column;
 }
 .img-fluid {
-    height: 150px;
-    width: 260px;
+    height: 160px;
+    width: 210px;
     margin: 10px 0; 
 }
 .btn{
     left: 0;
 }
-
+.nav-link{
+    font-size: 1em;
+}
+h4{
+    font-size: 2rem;
+}
+/* .container-slider {
+    height: 400px;
+    width: 100px;
+} */
+.slide img{
+    width: 260px;
+}
 }
