@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/chea/static/css/main.3331a8ff.css",
+    "main.js": "/chea/static/js/main.c8c99d11.js",
+    "static/media/iitkgplogo.png": "/chea/static/media/iitkgplogo.560c6cf01cfc0c28a86c.png",
+    "static/media/logoiiche.png": "/chea/static/media/logoiiche.e3f71d6ce0b9e896361a.png",
+    "static/media/Fugacity.png": "/chea/static/media/Fugacity.ee73a296ef9ee56a2a8d.png",
+    "static/media/logo.png": "/chea/static/media/logo.4016589ffdb97774e031.png",
+    "index.html": "/chea/index.html",
+    "main.3331a8ff.css.map": "/chea/static/css/main.3331a8ff.css.map",
+    "main.c8c99d11.js.map": "/chea/static/js/main.c8c99d11.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3331a8ff.css",
+    "static/js/main.c8c99d11.js"
+  ]
+}
