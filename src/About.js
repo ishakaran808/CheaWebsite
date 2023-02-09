@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./logos/logo.png";
 import iitkgplogo from "./logos/iitkgplogo.png";
 import logoiiche from "./logos/logoiiche.png";
-
+import vid1 from "./images/vid1.mp4"
 const About = () => {
   return (
     <div className="bodied">
@@ -13,7 +13,7 @@ const About = () => {
           </div>
           <div className="contain">
             <h3>Indian Institute of Technology Kharagpur</h3>
-            <a href="#">Read More</a>
+            {/* <a href="#">Read More</a> */}
             <p>
               Indian Institute of Technology Kharagpur (IIT Kharagpur) is a
               public technical university established by the government of India
@@ -33,7 +33,7 @@ const About = () => {
           <div className="contain">
             {/* <h2>02</h2> */}
             <h3>Indian Institute of Chemical Engineers</h3>
-            <a href="#">Read More</a>
+            {/* <a href="#">Read More</a> */}
             <p>
               The Indian Institute of Chemical Engineers (IIChE) is the
               professional body for chemical engineers in India. The headquarter
@@ -52,8 +52,9 @@ const About = () => {
           </div>
           <div className="contain text-center">
             <h3>Chemical Engineering Association, IIT Kharagpur</h3>
-            <a href="#">Read More</a>
+            {/* <a href="#">Read More</a> */}
             <p>
+              <br/>
               Chemical Engineering Association, IIT Kharagpur( also known as
               ChEA-IITKGP) is the Official Student Body of the Department of
               Chemical Engineering, IIT Kharagpur. At present, the department is
@@ -65,11 +66,13 @@ const About = () => {
         </div>
       </div>
 
-      {/* <div className="about">
+      <div className="about">
         <h1 className="text-center">Our Vision</h1>
-        <div className="row1">
-          <div className="col1"></div>
+        <div className="row6">
           <div className="col1">
+            <video src={vid1} controls />
+          </div>
+          <div className="col2">
             <p>
               Fugacity is the departmental fest of the Chemical Engineering
               Department, IIT Kharagpur, organised by the Chemical Engineering
@@ -85,7 +88,7 @@ const About = () => {
             </p>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };

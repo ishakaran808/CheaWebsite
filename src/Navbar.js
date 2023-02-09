@@ -5,13 +5,13 @@ const Navbar = () => {
   return (
     <>
     <div className="container">
-    <nav className="navbar navbar-expand-md navbar-dark fixed-top mt-0 navbar-scrolled">
+    <nav className="navbar navbar-expand-md navbar-light fixed-top mt-0 navbar-scrolled">
       <a href="#" className="navbar-brand mb-0 h1">
         <img
           className="d-inline-block "
           src={logo}
           alt="logo"
-          width="140"
+          width="130"
         />
         ChEA
       </a>
@@ -30,25 +30,25 @@ const Navbar = () => {
         <ul className="navbar-nav">
           <li className="nav-item active">
             <a href="#" className="nav-link">
-              Home
+              HOME
             </a>
           </li>
 
           <li className="nav-item active">
             <a href="#" className="nav-link">
-              Events
+              EVENTS
             </a>
           </li>
 
           <li className="nav-item active">
             <a href="#" className="nav-link">
-              Register Here
+              REGISTER HERE
             </a>
           </li>
 
           <li className="nav-item active">
             <a href="#footer" className="nav-link">
-              Contact Us
+              CONTACT US
             </a>
           </li>
         </ul>

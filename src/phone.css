@@ -1,4 +1,47 @@
-
+@media only screen and (max-width: 900px) {
+    .img-fluid {
+        height: 160px;
+        width: 210px;
+        margin: 10px 0; 
+    }
+    .section-data h1 {
+        font-size: 1.7em;
+    }
+    .data h2{
+        font-size: 1em;
+    }
+    .row{
+        margin-top: 50px;
+        padding: 10px;
+    } 
+    .content h2{
+        margin-top: 10px;
+        font-size: 4em;
+        padding: 0;
+    }
+    .col2{
+        padding: 40px;
+    }
+    .col1 video{
+        margin: 0 10px;
+        justify-content: center;
+        height: 300px;
+    }
+    .row6{
+        text-align: center;
+        display: block;
+    }
+    .navbar-toggler-icon{
+        color: black;
+    }
+    .data h4{
+        font-size: 2rem;
+    }
+    .nav_bg{
+        display: flex;
+        flex-direction: column;
+    }
+}
 @media only screen and (max-width: 670px)  {
     .footer-section{
     display: flex;
@@ -21,27 +64,8 @@
     font-size: 1.2em;
     margin: 0 10px;
 }
-.container .card .contain a {
-    position: absolute;
-    top: 200px;
-    justify-content: center;
-}
-.container .card img{
-    height: 150px;
-    opacity: 0;
-}
-.container .card:hover {
-height: 700px;
-}
-.container .card:hover {
-    height: 700px;
-}
-.container .card:hover {
-    height: 550px;
-    transform: translateY(20px);
-    transition: 0.5s;
-}
 .container .card{
+    height: 600px;
     top: 0;
 }
 .mx-auto{
@@ -51,8 +75,6 @@ height: 700px;
     margin-top: 10px;
     font-size: 4em;
     padding: 0;
-    /* position: absolute;
-    left: -10px; */
 }
 .row{
     margin-top: 50px;
@@ -64,11 +86,6 @@ height: 700px;
 .nav_bg{
     flex-direction: column;
 }
-.img-fluid {
-    height: 160px;
-    width: 210px;
-    margin: 10px 0; 
-}
 .btn{
     left: 0;
 }
@@ -78,11 +95,12 @@ height: 700px;
 h4{
     font-size: 2rem;
 }
-/* .container-slider {
-    height: 400px;
-    width: 100px;
-} */
 .slide img{
     width: 260px;
-}
+}}
+@media only screen and (max-width: 760px){
+    .nav-link{
+        color: antiquewhite;
+        font-size: 1.4em;
+    }   
 }
